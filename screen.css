@@ -1,0 +1,12 @@
+ img{
+  display: block;
+  max-width: 100%
+}
+#about-me img{
+ display: block;
+ max-width: 60%
+}
+
+#home #resume #about-me{
+  background-color: 9C9797;
+}
