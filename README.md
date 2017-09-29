@@ -1,2 +1,2 @@
-# Project-1
-ITMD 361 Project 1
+# Project-2
+ITMD 361 Project 2
