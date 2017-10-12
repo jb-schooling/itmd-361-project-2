@@ -46,6 +46,13 @@ li {
   color:red;
   padding-bottom: 11px;
 }
+li ol,
+li ul {
+  padding-bottom: 0;
+}
+li  li:last-child{
+  padding-bottom: 0;
+}
 img{
  display: block;
  max-width: 100%
