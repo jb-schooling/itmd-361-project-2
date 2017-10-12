@@ -46,9 +46,20 @@ li {
   color:red;
   padding-bottom: 11px;
 }
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: square;
+}
+
 li ol,
 li ul {
   padding-bottom: 0;
+}
+li ul {
+  list-style-type: circle;
 }
 li  li:last-child{
   padding-bottom: 0;
