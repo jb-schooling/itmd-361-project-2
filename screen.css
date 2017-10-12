@@ -20,6 +20,32 @@ font-size: 1.125em; /* 18 / 16 = 1.125 */
 line-height: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
 }
 
+body {
+  padding-top: 44px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
+}
+
+ol,ul {
+padding-bottom: 11px;
+}
+
+li {
+  color:red;
+  padding-bottom: 11px;
+}
 img{
  display: block;
  max-width: 100%
