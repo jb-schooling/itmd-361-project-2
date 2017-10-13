@@ -179,6 +179,30 @@ img{
     font-size: 1.25em; /* 20 / 16 =  1.25*/
   }
 }
+@media screen and (min-width: 1000px) {
+  /* NOTE: Grid
+      4 column grid
+      margin 200px
+      grid 800 px
+      gutters 200 px
+      Corses 366.667 px
+      Education 366.667 px
+   */
+  #resume body {
+  padding-left: 10%; /* NOTE: 100 / 1000 =  10*/
+  padding-right: 10%;
+  }
+  #education,
+  #courses {
+    width: 45.833333333333333333333333333333%; /* NOTE: 366.66666666666666666666666666667px / 800 = 45.833333333333333333333333333333*/
+    float:left;
+  }
+    #courses {
+      margin-left:8.3333333333333333333333333333333%; /* NOTE: 66.666666666666666666666666666667px / 800 = 8.3333333333333333333333333333333 */
+    }
+    #projects {
+      clear: both;
+    }
 @media screen and (min-width: 1100px) {
   /* NOTE: Grid
       5 column grid
