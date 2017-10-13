@@ -179,3 +179,31 @@ img{
     font-size: 1.25em; /* 20 / 16 =  1.25*/
   }
 }
+@media screen and (min-width: 1100px) {
+  /* NOTE: Grid
+      5 column grid
+      margin 200px
+      grid 900 px
+      gutters 100 px
+      primary 530 px
+      support 320 px
+   */
+  #about-me html{
+    font-size: 1.5em; /* 24 / 16 =  1.5*/
+  }
+  #about-me body {
+    padding-left: 9.0909090909090909090909090909091%; /* 100 / 1100 = 9.0909090909090909090909090909091 */
+    padding-right: 9.0909090909090909090909090909091%;
+  }
+  #about-me #primary {
+    width: 55.555555555555555555555555555556%; /* 500 / 900 = 55.555555555555555555555555555556 */
+    float: left;
+  }
+  #about-me #supporting {
+    width: 35.555555555555555555555555555556%; /* 320 / 900 =  35.555555555555555555555555555556*/
+    margin-left: 5.5555555555555555555555555555556%; /* 50 / 900 =  5.5555555555555555555555555555556*/
+    float: left;
+  }
+   #about-me #footer {
+    clear: both;
+  }
