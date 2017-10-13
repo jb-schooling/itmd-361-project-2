@@ -114,9 +114,6 @@ img{
   2. concerned with layout and spatial
      relationships
 */
-#about-me img{
- display: block;
- max-width: 60%
 #navigation {
   position: absolute;
   width: 100%
