@@ -166,3 +166,10 @@ img{
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+
+@media screen and (min-width: 375px) {
+  body{
+    padding-right: 11.733333333333333333333333333333%;  /* 44 / 375 = 11.733333333333333333333333333333%*/
+    padding-left: 11.733333333333333333333333333333%;/* 44 / 375 = 11.733333333333333333333333333333%*/
+  }
+}
