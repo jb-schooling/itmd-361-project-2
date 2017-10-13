@@ -23,13 +23,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html{
 font-size: 1.125em; /* 18 / 16 = 1.125 */
-line-height: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
+line-height: 1.222em; /* 22 / 18 = 1.222*/
 }
 
 body {
-  padding-top: 44px;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding-top: 4.8889em; /* NOTE: 88px / 18 =  4.8889*/
+  padding-right: 1.222em; /* 22 / 18 = 1.222*/
+  padding-left: 1.222em; /* 22 / 18 = 1.222*/
 }
 
 h1,
@@ -44,13 +44,22 @@ ol {
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
 }
 
+h1 {
+  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+  line-height: 1.032em; /* 44 / 42.635 = 1.032*/
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516*/
+h2 {
+  font-size: 1.777em; /* 31.984 / 18 = 1.777*/
+  line-height: 1.032em; /* 33 / 31.984 = 1.032 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688*/
+
+}
 ol,ul {
-padding-bottom: 11px;
+padding-bottom: 0.6112em; /* NOTE: 11 / 18 =  0.61111111111111111111111111111111*/
 }
 
 li {
-  color:red;
-  padding-bottom: 11px;
+  padding-bottom:  0.6112em; /* NOTE: 11 / 18 =  0.61111111111111111111111111111111*/
 }
 ol {
   list-style-type: decimal;
@@ -62,8 +71,8 @@ ul {
 
 li ol,
 li ul {
-  padding-top: 11px;
-  padding-left: 22px;
+  padding-top: 0.6112em; /* NOTE: 11 / 18 =  0.61111111111111111111111111111111*/
+  padding-left: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
   padding-bottom: 0;
 }
 li ul {
