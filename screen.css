@@ -15,6 +15,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   2. concerned with color and typography
   3. basic element presenation
 */
+
+/*
+  Setting type with a 4:3 modular scale
+  http://www.modularscale.com/?18&px&1.333
+*/
+
 html{
 font-size: 1.125em; /* 18 / 16 = 1.125 */
 line-height: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
