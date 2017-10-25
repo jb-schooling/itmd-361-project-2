@@ -164,7 +164,9 @@ img{
   list-style-type: none;
   padding-bottom: 0;
 }
-
+.list-majoritem::first-line {
+  font-weight: bold;
+}
 
 /* State Styles */
 /*
