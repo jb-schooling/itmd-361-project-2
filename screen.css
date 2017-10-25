@@ -59,6 +59,10 @@ h1 {
   text-align: center;
 }
 
+h1 a {
+  text-decoration: none;
+  color: black;
+}
 h2 {
   font-size: 1.777em; /* 31.984 / 18 = 1.777*/
   line-height: 1.032em; /* 33 / 31.984 = 1.032 */
