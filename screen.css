@@ -61,6 +61,12 @@ h1 {
 h1 a {
   text-decoration: none;
   color: black;
+  border-width: 0.164em; /* NOTE: 7 / 42.635 = 0.16418435557640436261287674445878*/
+  border-style: dashed;
+  border-color: black;
+  padding: .0938em; /* NOTE: 4 / 42.635  = 0.09381963175794535006450099683359 */
+  padding-left: .235em; /* NOTE: 10 / 42.635 = 0.23454907939486337516125249208397 */
+  padding-right: .235em;
 }
 h2 {
   font-size: 1.777em; /* 31.984 / 18 = 1.777*/
