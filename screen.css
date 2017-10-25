@@ -58,7 +58,6 @@ h1 {
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516*/
   text-align: center;
 }
-
 h1 a {
   text-decoration: none;
   color: black;
@@ -126,7 +125,7 @@ img{
   left:0;
 }
 #navigation li {;
-  width: 33.333333333333333333333333333333vw;
+  width: 33.333333333333333333333333333333%;
   background-color: blue;
   float: left;
 }
