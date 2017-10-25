@@ -203,51 +203,50 @@ img{
     #projects {
       clear: both;
     }
-    .flexbox #resume #education,
+
+    /* NOTE: Grid
+        5 column grid
+        margin 200px
+        grid 800 px
+        gutters 100 px
+        primary 445 px
+        support 305 px
+        actual gutter 50px
+     */
+    #about-me html{
+      font-size: 1.5em; /* 24 / 16 =  1.5*/
+    }
+    #about-me body {
+      padding-left: 10%; /* 100 / 1000 =  0.1 */
+      padding-right: 10%; /* 100 / 1000 =  0.1 */
+    }
+    #about-me #primary {
+      width: 55.625%; /* 445 / 800 =  0.55625*/
+      float: left;
+    }
+    #about-me #supporting {
+      width: 38.125%; /* 305 / 800 =  0.38125*/
+      margin-left: 6.25%; /* 50 / 800 =  0.0625*/
+      float: left;
+    }
+     #about-me #footer {
+      clear: both;
+    }
+  /*  .flexbox #about-me #primary,
+    .flexbox #about-me #supporting {
+      float: none;
+    }
+    .flexbox #about-me #content {
+    display: flex;
+    flex-wrap: wrap;
+    } */
+
+  /*  .flexbox #resume #education,
     .flexbox #resume #projects {
       float: none;
     }
     .flexbox #education #projects {
     display: flex;
     flex-wrap: wrap;
-    }
-
+    } */
   }
-}
-@media screen and (min-width: 1100px) {
-  /* NOTE: Grid
-      5 column grid
-      margin 200px
-      grid 900 px
-      gutters 100 px
-      primary 530 px
-      support 320 px
-   */
-  #about-me html{
-    font-size: 1.5em; /* 24 / 16 =  1.5*/
-  }
-  #about-me body {
-    padding-left: 9.0909090909090909090909090909091%; /* 100 / 1100 = 9.0909090909090909090909090909091 */
-    padding-right: 9.0909090909090909090909090909091%;
-  }
-  #about-me #primary {
-    width: 55.555555555555555555555555555556%; /* 500 / 900 = 55.555555555555555555555555555556 */
-    float: left;
-  }
-  #about-me #supporting {
-    width: 35.555555555555555555555555555556%; /* 320 / 900 =  35.555555555555555555555555555556*/
-    margin-left: 5.5555555555555555555555555555556%; /* 50 / 900 =  5.5555555555555555555555555555556*/
-    float: left;
-  }
-   #about-me #footer {
-    clear: both;
-  }
-  .flexbox #about-me #primary,
-  .flexbox #about-me #supporting {
-    float: none;
-  }
-  .flexbox #about-me #content {
-  display: flex;
-  flex-wrap: wrap;
-  }
-}
