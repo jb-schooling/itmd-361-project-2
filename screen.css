@@ -150,7 +150,6 @@ img{
 }
 
 
-
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -247,16 +246,16 @@ img{
     padding-left: 10%; /* 100 / 1000 =  0.1 */
     padding-right: 10%; /* 100 / 1000 =  0.1 */
   }
-  #about-me #primary {
+  #about-primary {
     width: 55.625%; /* 445 / 800 =  0.55625*/
     float: left;
   }
-  #about-me #supporting {
+  #about-supporting {
     width: 38.125%; /* 305 / 800 =  0.38125*/
     margin-left: 6.25%; /* 50 / 800 =  0.0625*/
     float: left;
   }
-   #about-me #footer {
+   #about-footer {
     clear: both;
   }
 /*  .flexbox #about-me #primary,
