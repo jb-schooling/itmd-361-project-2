@@ -26,7 +26,7 @@ font-size: 1.125em; /* 18 / 16 = 1.125 */
 line-height: 1.222em; /* 22 / 18 = 1.222*/
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 background-color: #B0BEC5;
-color: #26395A;
+color: #093755;
 }
 
 body {
@@ -112,6 +112,9 @@ li  li:last-child{
 img{
  display: block;
  max-width: 100%
+}
+footer {
+  color: #DB4E58;
 }
 
 /*
