@@ -208,7 +208,7 @@ footer {
   }
   #education {
     width: 52.6785%; /* NOTE: 421.428 / 800 =  0.526785*/
-    float:left;
+    float: left;
   }
   #courses {
     width: 41.071375%; /* NOTE: 328.571 / 800 =  0.41071375*/
@@ -262,21 +262,13 @@ footer {
    #about-footer {
     clear: both;
   }
-/*  .flexbox #about-me #primary,
-  .flexbox #about-me #supporting {
+  .flexbox #content,
+  .flexbox #res-primary {
     float: none;
+    display: flex;
+    flex-wrap: wrap;
   }
-  .flexbox #about-me #content {
-  display: flex;
-  flex-wrap: wrap;
-  } */
-
-/*  .flexbox #resume #education,
-  .flexbox #resume #projects {
-    float: none;
+  .flexbox #res-primary h2 {
+    width: 100%;
   }
-  .flexbox #education #projects {
-  display: flex;
-  flex-wrap: wrap;
-  } */
 }
