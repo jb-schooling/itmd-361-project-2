@@ -114,6 +114,9 @@ img {
   display: block;
   max-width: 100%;
 }
+figure figcaption {
+  padding-top: 0.6112em; /* NOTE: 11 / 18 =  0.61111111111111111111111111111111*/
+}
 footer {
   padding-top: 1.667em; /* NOTE: 30 / 18 = 1.6666666666666666666666666666667 */
   color: #DB4E58;
